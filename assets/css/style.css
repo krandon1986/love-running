@@ -258,6 +258,7 @@ footer {
 
 /* Media Queries */
 
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -283,12 +284,19 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width:100%;
+        clear:both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
 }
 
-/* For mediam screen size from 950px wide and down */
+/* For medium screen size from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
